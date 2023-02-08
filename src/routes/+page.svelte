@@ -27,16 +27,24 @@
 				{#each info as i}
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<div
-						class="rating group {i === selected ? 'bg-light-grey' : 'bg-dark-blue'}"
+						class="rating group {i === selected
+							? 'bg-light-grey'
+							: 'bg-dark-blue'} transition duration-150 ease-in"
 						on:click={() => handleClick(i)}
 					>
-						<p class="p-rating {i === selected ? 'text-white' : 'text-medium-grey'}">{i}</p>
+						<p
+							class="p-rating {i === selected
+								? 'text-white'
+								: 'text-medium-grey'} transition duration-150 ease-in"
+						>
+							{i}
+						</p>
 					</div>
 				{/each}
 			</div>
 			<button
 				type="submit"
-				class="a-btn uppercase"
+				class="a-btn uppercase transition duration-150 ease-in"
 				on:click={() => (isSubmitted = true)}
 				disabled={!isOneActive}>Submit</button
 			>

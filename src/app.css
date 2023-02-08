@@ -23,7 +23,7 @@
 }
 
 .a-btn {
-	@apply inline-block w-full rounded-full bg-orange p-2 text-center text-white hover:bg-white hover:text-orange;
+	@apply inline-block w-full rounded-full bg-orange p-2 text-center text-white hover:bg-white hover:text-orange disabled:bg-dark-blue disabled:text-light-grey;
 }
 
 .rgrad {
