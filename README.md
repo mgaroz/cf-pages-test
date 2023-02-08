@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/mgaroz/fm-rating-component)
-- Live Site URL: [Cloudflare Pages](https://your-live-site-url.com)
+- Live Site URL: [Cloudflare Pages](https://cf-pages-test-6w0.pages.dev/)
 
 ## My process
 
