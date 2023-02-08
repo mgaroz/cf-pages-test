@@ -41,7 +41,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - [Sveltekit](https://kit.svelte.dev/) - JS framework
-- [TailwindCSS] (https://tailwindcss.com/) - CSS framework
+- [TailwindCSS](https://tailwindcss.com/) - CSS framework
 
 ## Author
 
