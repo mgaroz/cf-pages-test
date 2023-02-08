@@ -10,7 +10,11 @@ module.exports = {
       'orange': 'hsl(25, 97%, 53%)',
       'white': 'hsl(0, 0%, 100%)'
     },
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '375px',
+      }
+    },
   },
   plugins: [require('@tailwindcss/forms')],
 }
