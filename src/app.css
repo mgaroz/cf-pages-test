@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		font-family: 'Overpass', sans-serif;
+	}
+}
+
+.rating {
+	@apply flex h-11 w-11 cursor-pointer items-center justify-center rounded-full hover:bg-orange active:bg-medium-grey;
+}
+
+.rating-star {
+	@apply flex h-11 w-11 items-center justify-center rounded-full;
+}
+
+.p-rating {
+	@apply group-hover:text-white group-active:text-white;
+}
+
+.a-btn {
+	@apply inline-block w-full rounded-full bg-orange p-2 text-center text-white hover:bg-white hover:text-orange;
+}
+
+.rgrad {
+	background-image: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+}
