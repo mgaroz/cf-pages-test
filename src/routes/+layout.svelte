@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Rating component Frontend Mentor</title>
+	<title>Frontend Mentor | Interactive rating component</title>
 </svelte:head>
 
 <slot />
